@@ -10,7 +10,7 @@
 # A função fatorial é normalmente definida por:
 # n! = n(n-1)*n(n-2)*...*3*2*1
 
-# calculando dee forma interativa com o FOR
+# calculando de forma interativa com o FOR
 valor = int(input("informe um número: "))
 
 # calculando o fatorial do valor informado
