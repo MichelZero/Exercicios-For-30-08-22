@@ -9,9 +9,11 @@
 # informado.
 
 # valore inicial
-maior = -1000
+parada = 10
+maior = -10000
 
 # processamento
+###   1   ###
 for i in range(10):
   numero = int(input(f"informe o valor[{i+1}]: "))
   if maior <= numero:
@@ -20,3 +22,13 @@ for i in range(10):
 # saída
 print(f"o maior número informado foi {maior}")
 print("fim do programa.")
+
+###   2   ###
+posicao = 0
+for i in range(parada):
+  valor = int(input(f"informe um número[{i}]: "))
+  if maior < valor:
+    maior = valor
+    posicao = i
+    
+print(f"entrada[{posicao}] é {maior}")
